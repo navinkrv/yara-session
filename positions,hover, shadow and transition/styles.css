@@ -1,0 +1,30 @@
+.box {
+	background-color: #0d0d91;
+	color: #f8f8f8;
+	padding: 10px 20px;
+	border-radius: 10px;
+	transition: all 0.4s;
+
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	/* right: 10px; */
+}
+.box:hover {
+	box-shadow: rgb(91, 200, 216) 3px 3px 30px -1px;
+	padding: 15px 30px;
+}
+.parent {
+	position: relative;
+	width: 800px;
+	height: 500px;
+	border: 1px solid red;
+}
+.box2 {
+	background-color: #0d0d91;
+	color: #f8f8f8;
+
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
