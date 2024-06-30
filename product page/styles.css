@@ -1,0 +1,56 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px 40px;
+}
+
+.product {
+	width: 25%;
+}
+.imageContainer {
+	position: relative;
+	height: 400px;
+}
+.imageContainer img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.imageContainer p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: white;
+
+	text-align: center;
+	width: 100%;
+}
+.gradient {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 1) 23%,
+		rgba(255, 255, 255, 0) 97%
+	);
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 69px;
+}
+.title {
+	margin: 5px auto;
+}
+.btn {
+	width: 100%;
+	border: none;
+	background: #f13758;
+	color: white;
+	padding: 10px;
+}
