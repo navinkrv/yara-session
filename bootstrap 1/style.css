@@ -1,0 +1,26 @@
+.carousel-item img {
+	height: 60vh;
+	object-fit: cover;
+	/* width: 80% !important; */
+	border-radius: 30px;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.carousel {
+	margin: 20px auto;
+	text-align: center;
+	width: 80%;
+}
+h2 {
+	margin: 10px auto;
+}
+.row-space-between {
+	justify-content: space-between;
+}
+.footer {
+	background-color: aliceblue;
+	width: 100vw;
+}
